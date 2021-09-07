@@ -118,7 +118,7 @@ header {
 }
 
 .logo {
-    background: url("ahsin.jpeg");
+    background: url("ahsin.jpeg:1");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
