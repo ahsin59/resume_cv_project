@@ -390,10 +390,7 @@ button[type="submit"] {
 div#map {
     min-height: 360px;
 }
-.card-desk{
-    padding-left:10px;
-    padding-right:10px;
-    {
+
 /*--------------------------------------------Media Queries*/
 
 @media(min-width: 992px) {
