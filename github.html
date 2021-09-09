@@ -1,26 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en-US">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
-    <link rel="stylesheet" href="style.css" type="text/css" />
-    
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript" src="../js/github-information.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Mohammad Javed</title>
-</head>
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
 <body>
-   <header class="container-fluid">
+    <header class="container-fluid">
         <div class="row">
             <a href="index.html">
                 <div class="col-md-4 logo"></div>
-                
             </a>
             <div class="col-md-8">
                 <div class="row bg-color-name-title">
@@ -30,7 +24,7 @@
                     </div>
                 </div>
                 <div class="row">
-                        ul id="nav" class="list-inline clearfix">
+                    <ul id="nav" class="list-inline clearfix">
                         <li class="col-xs-6 col-sm-2 ui-menu-color-home menuitem">
                             <a href="index.html" class="hvr-sweep-to-bottom"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
                         </li>
@@ -50,91 +44,54 @@
                             <a href="cv.html" class="hvr-sweep-to-bottom"><i class="fa fa-download" aria-hidden="true"></i><span>Download CV</span></a>
                         </li>
                     </ul>
-                    </div>
                 </div>
-       </div>
-            </div>
-        
-    </header>
-    <section class="container-fluid">
-        <div class="row bg-color-contact">
-            <div class="col">
-                <h3 class="contact-heading uppercase text-center">View My GitHub Projects</h3>
-                <h5 class="uppercase text-center">You can also search on other user profiles</h5>
-
-                <div class="center-form">
-                    <input type="text" id="gh-username" value="octocat" oninput="fetchGitHubInformation()" />
-                    <div id="gh-user-data"></div>
-                    <div id="gh-repo-data"></div>
-
-                </div>
-
             </div>
         </div>
-
-    </section>
-    <footer class="container-fluid">
-        <div id="footer-details" class="row">
-            <div class="col-sm-4">
-                <h5 class="uppercase general-sub">About</h5>
-                <p class="inline-block">
+    </header>
+    
+    <footer class="container-fluid ">
+        <div id="footer-details" class="row ">
+            <div class="col-sm-4 ">
+                <h5 class="uppercase general-sub ">About</h5>
+                <p class="inline-block ">
                     Full Stack Web Developer. Skilled in everything from HTML to Heroku. The capacity for structural and design thinking.
                 </p>
             </div>
-            <div class="col-sm-4">
-                <h5 class="uppercase general-sub">Download</h5>
-                <p class="inline-block">
+           <div class="col-sm-4 ">
+                <h5 class="uppercase general-sub ">Download My CV</h5>
+                <p class="inline-block ">
                     Need a printable version of my CV? Download it here.
-                    <a href="assets/cv/sample-cv.pdf" target="_blank" class="cv-pdf">
-                        <i class="fa fa-download" aria-hidden="true"></i>
-                        <span class="sr-only">Download link.</span>
-                    </a>
+                    <a href="cv.pdf" target="_blank" class="cv-pdf "><i class="fa fa-download" aria-hidden="true"></i></a>
                 </p>
             </div>
-            <div class="col-sm-4">
-                <h5 class="uppercase general-sub">Social</h5>
-                <ul class="list-inline social-links">
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#">
-                            <i class="fa fa-facebook" aria-hidden="true"></i>
-                            <span class="sr-only">Facebook</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#">
-                            <i class="fa fa-twitter" aria-hidden="true"></i>
-                            <span class="sr-only">Twitter</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#">
-                            <i class="fa fa-linkedin" aria-hidden="true"></i>
-                            <span class="sr-only">LinkedIn</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#">
-                            <i class="fa fa-pinterest" aria-hidden="true"></i>
-                            <span class="sr-only">Pinterest</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#">
-                            <i class="fa fa-instagram" aria-hidden="true"></i>
-                            <span class="sr-only">Instagram</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#">
-                            <i class="fa fa-youtube" aria-hidden="true"></i>
-                            <span class="sr-only">YouTube</span>
-                        </a>
-                    </li>
+            <div class="col-sm-4 ">
+                <h5 class="uppercase general-sub ">MySocial</h5>
+                <ul class="list-inline social-links ">
+                    <li><a target="_blank" href="# "><i class="fa fa-facebook "></i></a></li>
+                    <li><a target="_blank" href="# "><i class="fa fa-twitter "></i></a></li>
+                    <li><a target="_blank" href="# "><i class="fa fa-linkedin "></i></a></li>
+                    <li><a target="_blank" href="# "><i class="fa fa-pinterest "></i></a></li>
+                    <li><a target="_blank" href="# "><i class="fa fa-instagram "></i></a></li>
+                    <li><a target="_blank" href="# "><i class="fa fa-youtube "></i></a></li>
                 </ul>
             </div>
         </div>
-
     </footer>
-</body>
+       <script>
+        /*var APIKey = "AIzaSyDvNMPmER9-qE1RWJoGP7nDGPQOo5QGom8";*/
 
+        function initMap(){
+            var map = new google.maps.Map(document.getElementById("map"),{
+                zoom: 3,
+                center: {
+                    lat: 46.619261,
+                    lng: -33-134766
+                    }
+            });
+        }
+    </script>
+
+    <script src="https://developers.google.com/maps/documentation/javascript/exameples/markerclusterer.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD50Cf8z1w1f_pxvRR1vr-_EPc3yP0Qpnc&callback=initMap"></script>
+</body>
 </html>
