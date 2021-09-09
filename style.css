@@ -393,6 +393,7 @@ div#map {
 .card-desk{
     padding-left:10px;
     padding-right:10px;
+    {
 /*--------------------------------------------Media Queries*/
 
 @media(min-width: 992px) {
